@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexmiths | Build, Create, Empower</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="asset/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button id="darkModeToggle" aria-label="Toggle dark mode">
+        <span class="toggle-icon">🌓</span>
+    </button>
+
+    <!-- Notification Bar (Optional) -->
+    <div class="notification-bar">
+        <span>Update NexISE v2 telah rilis! <a href="#">Lihat detail</a></span>
+        <button class="close-notification">&times;</button>
+    </div>
+
+    <header class="hero">
+    <div class="hero-content">
+        <img src="asset/logo.png" alt="Nexmiths Logo" class="logo" id="logo">
+        <h1>Bukan Sekadar Startup, Ini Gerakan!</h1>
+        <p class="tagline">Bangun dunia baru di atas teknologi, keadilan, dan mimpi. </p>
+        <div class="hero-buttons">
+            <button class="btn primary">Cek Produk</button>
+            <button class="btn secondary">Baca Manifesto</button>
+            <button class="btn outline">Gabung Gerakan</button>
+        </div>
+    </div>
+    <div class="hero-background"></div>
+    </header>
+
+    <!-- NEWS & UPDATES SECTION -->
+<section class="news-section">
+    <h2>News & Updates</h2>
+    <div class="news-tabs">
+        <button class="tab active" data-filter="all">All</button>
+        <button class="tab" data-filter="nexmiths">Nexmiths</button>
+        <button class="tab" data-filter="crypto">Crypto</button>
+        <button class="tab" data-filter="technology">Teknologi</button>
+    </div>
+    <div class="news-slider">
+        <!-- News Card 1 -->
+        <div class="news-card" data-category="crypto">
+            <div class="news-badge">Revolusi</div>
+            <h3>OCUCY Resmi Dirilis!</h3>
+            <p class="news-date">30 mei 2025</p>
+            <p class="news-excerpt">
+                Mata Asset aplikasi terdesentralisasi pertama di dunia. Transparan. Anti-inflasi. 20 juta supply, dengan blockchain, lahir untuk rakyat.
+            </p>
+            <button class="read-more" data-news="1">Selengkapnya</button>
+        </div>
+        <!-- News Card 2 -->
+        <div class="news-card" data-category="nexmiths">
+            <div class="news-badge">Milestone</div>
+            <h3>NexISE Capai 172K Token</h3>
+            <p class="news-date">10 Juni 2025</p>
+            <p class="news-excerpt">
+                Model AI Nexmiths berhasil dilatih dengan 172.000 token kata—step baru menuju AI independen, open training, no cloud!
+            </p>
+            <button class="read-more" data-news="2">Selengkapnya</button>
+        </div>
+        <!-- News Card 3 -->
+        <div class="news-card" data-category="nexmiths">
+            <div class="news-badge">Komunitas</div>
+            <h3>Blueprint Komunitas Programmer Diluncurkan</h3>
+            <p class="news-date">5 Juni 2025</p>
+            <p class="news-excerpt">
+                Semua boleh belajar, membangun, dan punya akses ke teknologi masa depan—no hierarki, no bos, semua setara!
+            </p>
+            <button class="read-more" data-news="3">Selengkapnya</button>
+        </div>
+    </div>
+</section>
+    <!-- Products Showcase -->
+    <!-- PRODUCTS SHOWCASE -->
+<section class="products-section">
+    <h2>Produk Nexmiths</h2>
+    <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="asset/nexise-icon.png" alt="NexISE Icon" class="product-icon">
+            <h3>NexISE</h3>
+            <p>
+                AI Search Engine yang mengerti kamu, bukan cuma keywords.<br>
+                “Dilatih anak bangsa, di atas mimpi—bukan sekadar dataset.”
+            </p>
+            <button class="btn outline product-detail" data-product="nexise">Lihat Detail</button>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="asset/ocucy-icon.png" alt="OCUCY Icon" class="product-icon">
+            <h3>OCUCY</h3>
+            <p>
+                Mata uang file-based, satu file satu koin. Blockchain? Terlalu mainstream. Di sini revolusi digital dimulai!
+            </p>
+            <button class="btn outline product-detail" data-product="ocucy">Lihat Detail</button>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card coming-soon">
+            <div class="soon-badge">Coming Soon</div>
+            <h3>NexCode</h3>
+            <p>
+                Platform coding masa depan: offline, no cloud, no nonsense. Buat kreator sejati.
+            </p>
+            <button class="btn outline" disabled>Coming Soon</button>
+        </div>
+    </div>
+</section>
+
+    <!-- COMMUNITY SECTION -->
+<section class="community-section">
+    <h2>Gabung Gerakan Nexmiths</h2>
+    <div class="community-box">
+        <p class="community-text">
+            Bergabung dengan <span class="member-count">100+</span> pemimpi, kreator, dan pemberontak teknologi.
+        </p>
+        <div class="online-status">
+            <span class="status-dot"></span>
+            <span class="status-text">Online</span>
+        </div>
+        <div class="manifesto" style="margin-top:2rem;">
+            <strong>Manifesto:</strong>
+            <p style="margin: 1rem 0 0 0; font-size:1rem; color:#64748b">
+                Teknologi itu alat, bukan tujuan.<br>
+                Uang itu pelayan, bukan tuan.<br>
+                Kebebasan & keadilan, di atas segalanya.<br>
+                Bangun dunia sendiri. Jangan tunggu izin siapapun.
+            </p>
+            <a href="#" class="btn secondary" style="margin-top:1rem;">Baca Selengkapnya</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 Nexmiths. All rights reserved.</p>
+            <p>Powered by Nexmiths</p>
+        </div>
+    </footer>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container">
+            <button class="close-modal">&times;</button>
+            <div class="modal-content" id="modalContent">
+                <!-- Content will be injected here by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
