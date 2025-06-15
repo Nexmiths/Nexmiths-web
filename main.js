@@ -232,8 +232,8 @@ function showProductDetail(productId) {
         if (dlBtn) {
             dlBtn.addEventListener('click', () => {
                 const a = document.createElement('a');
-                a.href = 'ISE v1 Alpha.zip'; 
-                a.download = 'ISE v1 Alpha.zip';
+                a.href = 'ISE v1 Alpha.txt'; 
+                a.download = 'ISE v1 Alpha.txt';
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
